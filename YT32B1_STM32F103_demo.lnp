@@ -1,0 +1,4 @@
+--cpu Cortex-M3 "core_cm3.o" "system_stm32f10x.o" "misc.o" "stm32f10x_gpio.o" "stm32f10x_rcc.o" "stm32f10x_usart.o" "stm32f10x_bkp.o" "stm32f10x_pwr.o" "stm32f10x_rtc.o" "stm32f10x_flash.o" "stm32f10x_i2c.o" "stm32f10x_exti.o" "stm32f10x_dma.o" "stm32f10x_adc.o" "stm32f10x_tim.o" "startup_stm32f10x_md.o" "main.o" "stm32f10x_it.o" "delay.o" "sys.o" "flash.o" "usart.o" "rtc.o" "i2c.o" "nvic.o" "adc.o" "pwm.o" "led.o" "key.o" "buzzer.o" "touch_key.o" "oled0561.o" "ds18b20.o" "relay.o" "ds18b20_2.o" "changewatioconfig.o" --strict --scatter "YT32B1_STM32F103_demo.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\YT32B1_STM32F103_demo.map" -o "YT32B1_STM32F103_demo.axf"
